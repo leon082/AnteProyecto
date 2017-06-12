@@ -109,8 +109,8 @@ public class ListadoProBean {
 
         FacesContext context = FacesContext.getCurrentInstance();
         context.getExternalContext().getSessionMap().put(KEY, proyectoTable);
-        // return "ProyectoDetalle.xhtml";|
-        return "ProyectoGestion.xhtml";
+        return "ProyectoDetalle.xhtml";
+        //return "ProyectoGestion.xhtml";
 
     }
 
